@@ -112,4 +112,3 @@ const styles = StyleSheet.create({
   },
 });
 
-//Parou aos 49:00

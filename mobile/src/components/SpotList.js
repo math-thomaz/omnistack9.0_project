@@ -61,7 +61,7 @@ const styles = StyleSheet.create({
   },
 
   bold: {
-    fontWeight: 'bold',
+    fontWeight: 'bold'
   },
 
   list: {
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
   price: {
     fontSize: 15,
     color: '#999',
-    marginTop: 5,
+    marginTop: 5
   },
 
   button: {
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
   },
 
   buttonText: {
-    color: '#fff',
+    color: '#FFF',
     fontWeight: 'bold',
     fontSize: 15,
   },

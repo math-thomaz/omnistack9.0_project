@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { SafeAreaView, Alert, StyleSheet, Text, TextInput, TouchableOpacity } from 'react-native';
+import { SafeAreaView, Alert, StyleSheet, TextInput, TouchableOpacity, Text } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import api from '../services/api';
@@ -17,7 +17,7 @@ export default function Book({ navigation }) {
       headers: { user_id }
     })
 
-    Alert.alert('Solicitação de reserva enviada');
+    Alert.alert('Solicitação de reserva enviada.');
 
     navigation.navigate('List');
   }
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#444',
     marginBottom: 8,
-    marginTop: 50,
+    marginTop: 30,
   },
 
   input: {
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     color: '#444',
     height: 44,
     marginBottom: 20,
-    borderRadius: 2,
+    borderRadius: 2
   },
 
   button: {
@@ -83,11 +83,11 @@ const styles = StyleSheet.create({
 
   cancelButton: {
     backgroundColor: '#ccc',
-    marginTop: 10,
+    marginTop: 10
   },
 
   buttonText: {
-    color: '#fff',
+    color: '#FFF',
     fontWeight: 'bold',
     fontSize: 16,
   },
